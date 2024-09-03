@@ -49,5 +49,5 @@ function startWatch(){
 		function changingFunc(x){for(let position of x){DateElems[itt][position].style.background=``}}
 	}
 
-	setTimeout(startWatch,1000)
+	setTimeout(startWatch,50)
 };
