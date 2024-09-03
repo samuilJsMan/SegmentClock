@@ -10,6 +10,7 @@ const DateElems=[
 	] 
 
 let store=window.localStorage
+store.chosen?null:store.chosen=`-3`
 document.querySelector(`option[value='${store.chosen}']`).setAttribute(`selected`,``)
 
 startWatch()
